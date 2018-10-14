@@ -14,12 +14,18 @@ https://github.com/PayloadSecurity/VxAPI
 * 本ツールダウンロード
 本Githubのmail_attach_analyzer.pyをダウンロードしVxAPIと同じディレクトリに展開。
 
-* HybridAnalysisのApiKeyを取得し設定する
-HybridAnalysisのサイトからApiKeyを取得する。
+* HybridAnalysisのApiKey設定
+HybridAnalysisのサイトからApiKey, ApiSecretを取得する。
 参考：https://www.hybrid-analysis.com/docs/api/v2
-取得したApiKeyを mail_attach_analyzer.py のxxx行目に設定する。
+取得したApiKey, ApiSecretを VxAPIのconfig.pyに設定する。
+# config.pyはconfig_tpl.pyをconfig.pyにリネームする
 
-API keyの取得
+* VirusTotalのApiKey設定
+VirusTotalのサイトからApiKeyを取得する。
+参考：https://www.virustotal.com/fr/documentation/public-api/
+取得したApiKeyをmail_attach_analyzer.py の170行目に設定する。
+
+
 
 # run
 Pythonプログラムの実行
