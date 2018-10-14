@@ -1,4 +1,4 @@
-# mwscup事前課題
+# mwscup 2018 事前課題
 
 # Description
 メールの添付ファイルのファイル名を用いてマルウェア情報を取得するツール。
@@ -14,8 +14,10 @@ https://github.com/PayloadSecurity/VxAPI
 * 本ツールダウンロード
 本Githubのmail_attach_analyzer.pyをダウンロードしVxAPIと同じディレクトリに展開。
 
-
-HybridAnalysisのApiKeyを取得し設定する
+* HybridAnalysisのApiKeyを取得し設定する
+HybridAnalysisのサイトからApiKeyを取得する。
+参考：https://www.hybrid-analysis.com/docs/api/v2
+取得したApiKeyを mail_attach_analyzer.py のxxx行目に設定する。
 
 API keyの取得
 
