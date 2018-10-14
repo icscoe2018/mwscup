@@ -25,7 +25,16 @@ VirusTotalのサイトからApiKeyを取得する。
 参考：https://www.virustotal.com/fr/documentation/public-api/
 取得したApiKeyをmail_attach_analyzer.py の170行目に設定する。
 
+* Python3環境設定
+Python3ライブラリをインストール。
 
+sudo apt install python3-pip
+pip3 install requests BeautifulSoup4
 
-# run
-Pythonプログラムの実行
+# 実行
+
+* JC3サイトからマルウェアメール添付ファイル例を使用して情報収集
+python3 mail_attach_analyzer.py -jc3
+
+* CSVファイルを読み込み情報収集
+python3 mail_attach_analyzer.py -csv [CSV_FILE_NAME]
