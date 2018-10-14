@@ -42,7 +42,7 @@ VirusTotalのサイトからApiKeyを取得する。
 Python3ライブラリをインストール。
 
     sudo apt install python3-pip
-    pip3 install requests BeautifulSoup4
+    pip3 install requests BeautifulSoup4 colorama
 
 # 実行
 
