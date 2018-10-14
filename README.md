@@ -1,6 +1,6 @@
 # mwscup 2018 事前課題
 
-# Description
+# 概要
 メールの添付ファイルのファイル名を用いてマルウェア情報を取得するツール。
 
 HybridAnalysis, VirusTotalから情報を収集。
